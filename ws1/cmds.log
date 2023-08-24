@@ -1,0 +1,90 @@
+    1  wget www.github.com
+    2  ls
+    3  cat index.html
+    4  ls
+    5  rm index.html
+    6  ls
+    7  exit
+    8  wget www.github.com
+    9  exit
+   10  ls
+   11  rm index.html
+   12  wget www.github.com
+   13  history
+   14  exit
+   15  ls
+   16  history
+   17  mkdir cs131
+   18  cd cs131
+   19  ls
+   20  mkdir Worksheet 1
+   21  ls
+   22  rm -r 1
+   23  rm -r Worsheet
+   24  rm -r Worksheet
+   25  history
+   26  git init
+   27  ls
+   28  mkdir ws1
+   29  git status
+   30  ls
+   31  cd ws1
+   32  history
+   33  cd ..
+   34  ls
+   35  git remote add origin git@github.com:tntly/cs131.git
+   36  git branch -M main
+   37  git push -u origin main
+   38  git branch
+   39  git status
+   40  git push -u origin main
+   41  git branch -M main
+   42  git remote add origin git@github.com:tntly/cs131.git
+   43  git push -u origin main
+   44  git ls-remote origin
+   45  git push -u origin main
+   46  ssh-keygen -t rsa -b 4096 -C "tntly@ucdavis.edu"
+   47  cd ~/.ssh
+   48  ls
+   49  cat ~/.ssh/id_rsa.pub
+   50  cd ~
+   51  ls
+   52  cd cs131
+   53  ls
+   54  ssh -T git@github.com
+   55  git push -u origin main
+   56  cd .
+   57  ls
+   58  cd ..
+   59  rm - r cs131
+   60  rm -r cs131
+   61  ls
+   62  mkdir cs131
+   63  ls
+   64  cd cs131
+   65  ls
+   66  mkdir ws1
+   67  git init
+   68  git status
+   69  git remote add origin git@github.com:tntly/cs131.git
+   70  git branch -M main
+   71  git push -u origin main
+   72  ls
+   73  cd ..
+   74  ls
+   75  mv index.html cs131
+   76  ls
+   77  cd cs131
+   78  git status
+   79  git add .
+   80  git commit -m 'first commit!'
+   81  git status
+   82  git commit -m "first commit"
+   83  git config --global user.email "tntly@ucdavis.edu"
+   84  git config --global user.name "Tien Ly"
+   85  git commit -m "first commit"
+   86  git status
+   87  git push -u origin main
+   88  ls
+   89  git branch
+   90  history > cmds.log
