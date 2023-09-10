@@ -1,2 +1,2 @@
-line count: 83
-word count: 306
+line count of records in the Music category: 202
+word count of records in the Music category: 676

@@ -1,0 +1,353 @@
+    1  wget www.github.com
+    2  ls
+    3  cat index.html
+    4  ls
+    5  rm index.html
+    6  ls
+    7  exit
+    8  wget www.github.com
+    9  exit
+   10  ls
+   11  rm index.html
+   12  wget www.github.com
+   13  history
+   14  exit
+   15  ls
+   16  history
+   17  mkdir cs131
+   18  cd cs131
+   19  ls
+   20  mkdir Worksheet 1
+   21  ls
+   22  rm -r 1
+   23  rm -r Worsheet
+   24  rm -r Worksheet
+   25  history
+   26  git init
+   27  ls
+   28  mkdir ws1
+   29  git status
+   30  ls
+   31  cd ws1
+   32  history
+   33  cd ..
+   34  ls
+   35  git remote add origin git@github.com:tntly/cs131.git
+   36  git branch -M main
+   37  git push -u origin main
+   38  git branch
+   39  git status
+   40  git push -u origin main
+   41  git branch -M main
+   42  git remote add origin git@github.com:tntly/cs131.git
+   43  git push -u origin main
+   44  git ls-remote origin
+   45  git push -u origin main
+   46  ssh-keygen -t rsa -b 4096 -C "tntly@ucdavis.edu"
+   47  cd ~/.ssh
+   48  ls
+   49  cat ~/.ssh/id_rsa.pub
+   50  cd ~
+   51  ls
+   52  cd cs131
+   53  ls
+   54  ssh -T git@github.com
+   55  git push -u origin main
+   56  cd .
+   57  ls
+   58  cd ..
+   59  rm - r cs131
+   60  rm -r cs131
+   61  ls
+   62  mkdir cs131
+   63  ls
+   64  cd cs131
+   65  ls
+   66  mkdir ws1
+   67  git init
+   68  git status
+   69  git remote add origin git@github.com:tntly/cs131.git
+   70  git branch -M main
+   71  git push -u origin main
+   72  ls
+   73  cd ..
+   74  ls
+   75  mv index.html cs131
+   76  ls
+   77  cd cs131
+   78  git status
+   79  git add .
+   80  git commit -m 'first commit!'
+   81  git status
+   82  git commit -m "first commit"
+   83  git config --global user.email "tntly@ucdavis.edu"
+   84  git config --global user.name "Tien Ly"
+   85  git commit -m "first commit"
+   86  git status
+   87  git push -u origin main
+   88  ls
+   89  git branch
+   90  history > cmds.log
+   91  ls
+   92  git status
+   93  git add .
+   94  mv index.html ws1
+   95  git status
+   96  git add .
+   97  ls
+   98  cat cmds.log
+   99  ls
+  100  cd ws1
+  101  ls
+  102  mv index.html ws1/,,
+  103  mv index.html ws1/..
+  104  mv index.html ..
+  105  ls
+  106  cd ..
+  107  ls
+  108  mv cmds.log ws1
+  109  ls
+  110  git status
+  111  git ad .
+  112  git add .
+  113  ls
+  114  git status
+  115  git commit -m "moved log + index files"
+  116  git status
+  117  git push
+  118  ls
+  119  exit
+  120  passwd
+  121  echo $SHELL
+  122  pwd
+  123  ls
+  124  ls
+  125  cd cs131
+  126  ls
+  127  cd ws1
+  128  ls
+  129  cmds.log
+  130  cat cmds.log
+  131  cd cs131
+  132  ls
+  133  cd ws1
+  134  ls
+  135  less cmds.log
+  136  cd cs131
+  137  ls
+  138  cd ws1
+  139  ls
+  140  less cmds.log
+  141  more cmds.log
+  142  ssh -T git@github.com
+  143  cd cs131
+  144  ls
+  145  cd ws1
+  146  ls
+  147  head -15 cmds.log
+  148  tail cmds.log
+  149  ls
+  150  cd cs131
+  151  ls
+  152  cd ws1
+  153  ls
+  154  more cmds.log
+  155  less cmds.log
+  156  ls
+  157  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  158  ls
+  159  vi spotify-2023.csv
+  160  vi sort.txt
+  161  cat sort.txt
+  162  sort sort.txt
+  163  wc -l sort.txt
+  164  man wc
+  165  wc -w sort.txt
+  166  grep "Tyler" spotify-2023.csv
+  167  grep tyler spotify-2023.csv
+  168  grep Taylor spotify-2023.csv 
+  169  grep -i taylor spotify-2023.csv 
+  170  grep taylor spotify-2023.csv 
+  171  grep -i taylor spotify-2023.csv > results_taylor.txt
+  172  cat results_taylor.txt
+  173  wc -l spotify-2023.csv 
+  174  less results_taylor.txt 
+  175  wc -l spotify-2023.csv 
+  176  man grep
+  177  grep Taylor spotify-2023.csv | wc -l
+  178  ls
+  179  rm results_taylor.txt sort.txt spotify-2023.csv 
+  180  ls
+  181  cd cs131
+  182  ls
+  183  mv index.hmtl ws1
+  184  mv index.html ws1
+  185  ls
+  186  cd ws1
+  187  ls
+  188  cd ..
+  189  ls
+  190  git status
+  191  git add .
+  192  git status
+  193  git commit -m "re-organized folder"
+  194  git push
+  195  git status
+  196  git branch
+  197  ls
+  198  cd ws1
+  199  ls
+  200  cat cmds.log
+  201  less index.html
+  202  ls
+  203  cd ..
+  204  ls
+  205  mv ws1 worksheet1
+  206  ls
+  207  mkdir worksheet2
+  208  ls
+  209  cd worksheet2
+  210  ls
+  211  git status
+  212  ls
+  213  cd ..
+  214  git add .
+  215  git status
+  216  git commit -m "renamed folder + created new one for worksheet 2"
+  217  git push
+  218  ls
+  219  cd worksheet2
+  220  ls
+  221  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  222  ls
+  223  grep "United States" "Global YouTube Statistics.csv" 
+  224  grep "United States" 'Global YouTube Statistics.csv'
+  225  grep "United States" 'Global YouTube Statistics.csv' | wc -l
+  226  grep "United States" "Global YouTube Statistics.csv" | wc -l
+  227  grep "United States" "Global YouTube Statistics.csv" | grep "Music"
+  228  grep "United States" "Global YouTube Statistics.csv" | grep "Music" | wc -l
+  229  grep "United States" "Global YouTube Statistics.csv" | wc -l
+  230  grep "United States" "Global YouTube Statistics.csv"
+  231  grep "United States" "Global YouTube Statistics.csv" | wc -l
+  232  grep "United States" "Global YouTube Statistics.csv" | grep "Music" | wc -lw
+  233  grep "United States" "Global YouTube Statistics.csv" | grep "Music" | wc -lw > counts.txt
+  234  cat counts.txt
+  235  vi counts.txt
+  236  git add .
+  237  git commit -m " working on worksheet 2: gzip, gunzip, grep, wc, cut"
+  238  git push
+  239  git status
+  240  ls
+  241  cd cs131/worksheet2
+  242  ls
+  243  cut -d "," -f 8 "Global YouTube Statistics.csv"
+  244  cut -d "," -f 8 "Global YouTube Statistics.csv" | grep "United States"
+  245  cut -d "," -f 8 "Global YouTube Statistics.csv" | grep "United States" | wc -l
+  246  grep "United States" "Global YouTube Statistics.csv"  | wc -l
+  247  head -5 "Global YouTube Statistics.csv" 
+  248  head -6 "Global YouTube Statistics.csv" 
+  249  head -7 "Global YouTube Statistics.csv" 
+  250  grep -E “^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States” "Global YouTube Statistics.csv"
+  251  ls
+  252  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv"
+  253  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" | wc -l
+  254  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" > temp.txt
+  255  ls
+  256  less temp.txt
+  257  cut -d "," -f 8 "Global YouTube Statistics.csv" | grep "United States" > temp2.txt
+  258  ls
+  259  less temp2.txt
+  260  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" -n
+  261  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" | cut -d "," -f 1
+  262  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" | cut -d "," -f 1 > temp2.txt
+  263  wc -l temp2.txt
+  264  cut -d "," -f 8 "Global YouTube Statistics.csv" | grep "United States" > temp.txt
+  265  ls
+  266  temp.txt wc -;
+  267  wc -l tempt.txt
+  268  wc -l temp.txt
+  269  cut -d "," -f 1,8 "Global YouTube Statistics.csv" 
+  270  cut -d "," -f 1,8 "Global YouTube Statistics.csv" | grep "United States"
+  271  cut -d "," -f 1,8 "Global YouTube Statistics.csv" | grep "United States" | wc -l
+  272  cut -d "," -f 1,8 "Global YouTube Statistics.csv" | grep "United States" | cut -d, -f1
+  273  cut -d "," -f 1,8 "Global YouTube Statistics.csv" | grep "United States" | cut -d, -f1 > temp.txt
+  274  wc -l temp.txt temp2.txt
+  275  diff temp.txt temp2.txt
+  276  head -5 temp.txt
+  277  head -5 temp2.txt
+  278  sed -n "20,30p" temp.txt
+  279  sed -n "20,30p" temp2.txt
+  280  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" -a
+  281  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" -a | wc -l
+  282  man grep
+  283  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv"
+  284  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" | head -10
+  285  vi "Global YouTube Statistics.csv" 
+  286  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" -o | head -20
+  287  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" "Global YouTube Statistics.csv" -o
+  288  head -10 "Global YouTube Statistics.csv" >> text.txt
+  289  cat text.txt
+  290  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States" text.txt
+  291  cut -d "," -f 1,8 text.txt | grep "United States"
+  292  cut -d "," -f 1,2,3,4,5,6,7,8 text.txt | grep "United States"
+  293  cut -d "," -f 1,2,3,4,5,6,7,8 text.txt
+  294  cut -d "," -f 1,2,3,4,5,6,7,8 text.txt | grep "United States"
+  295  cut -d "," -f 1,2,3,4,5,6,7,8 text.txt | grep "United States" -i
+  296  cut -d "," -f 1,2,3,4,5,6,7,8 text.txt | cat -v
+  297  cut -d "," -f 1,2,3,4,5,6,7,8 text.txt | cat -v | grep "United States"
+  298  cut -d "," -f 1,2,3,4,5,6,7,8 text.txt | cat -A
+  299  cat "Global YouTube Statistics.csv" | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States'
+  300  cat "Global YouTube Statistics.csv" | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | wc -l
+  301  cat "Global YouTube Statistics.csv" -o | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | wc -l
+  302  man cat
+  303  cat -o "Global YouTube Statistics.csv" | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | wc -l
+  304  cat -v "Global YouTube Statistics.csv" | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | wc -l
+  305  ls
+  306  vi text.txt
+  307  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' test.txt
+  308  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' text.txt
+  309  man grep
+  310  ls
+  311  history
+  312  cd cs131/worksheet2
+  313  ls
+  314   cd cs131/worksheet2
+  315  ls
+  316  rm temp2.txt
+  317  rm temp.txt text.txt
+  318  ls
+  319  man cat
+  320  exit
+  321  ls
+  322  cd cs131/worksheet2
+  323  ls
+  324  cat -v 'Global YouTube Statistics.csv' 
+  325  cat -v 'Global YouTube Statistics.csv' | head 10
+  326  cat -v 'Global YouTube Statistics.csv' | head
+  327  man cat
+  328* 
+  329  cat -v 'Global YouTube Statistics.csv' | grep - E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' 'Global YouTube Statistics.csv' 
+  330  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' 'Global YouTube Statistics.csv' 
+  331  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' 'Global YouTube Statistics.csv' | wc -l
+  332  cat -v 'Global YouTube Statistics.csv' | grep - E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' 'Global YouTube Statistics.csv' 
+  333  cat -v 'Global YouTube Statistics.csv' | grep - E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' 'Global YouTube Statistics.csv'  | head
+  334  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' 'Global YouTube Statistics.csv'
+  335  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' 'Global YouTube Statistics.csv' | wc -l
+  336  history
+  337  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | wc -l
+  338  grep -E ‘^[^,]*,[^,]*,[^,]*,[^,]*,Music’ 'Global YouTube Statistics.csv' 
+  339  grep 'Music' 'Global YouTube Statistics.csv' 
+  340  grep -E ‘^[^,]*,[^,]*,[^,]*,[^,]*,Music’ 'Global YouTube Statistics.csv' 
+  341  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Music' 'Global YouTube Statistics.csv' 
+  342  grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Music' 'Global YouTube Statistics.csv' | wc -l
+  343  grep 'Music' 'Global YouTube Statistics.csv' | wc -l
+  344  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Music' | wc -l
+  345  cat -v 'Global YouTube Statistics.csv' | grep 'Music' | wc -;
+  346  cat -v 'Global YouTube Statistics.csv' | grep 'Music' | wc -l
+  347  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | wc -l
+  348  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Music' | wc -l
+  349  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Music' | wc -lw
+  350  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Music' | wc -lw > counts.txt
+  351  vi counts.txt
+  352  cat counts.txt
+  353  history > cmds.log
