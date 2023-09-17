@@ -1,0 +1,114 @@
+  443  mkdir worksheet3
+  444  ls
+  445  cd worksheet3
+  446  ls
+  447  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  448  ls
+  449  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | sort -t',' -k16 -n -r
+  450  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | sort -t',' -k16 -n -r | head
+  451  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | sort -t',' -k16 -n -r | head 1 | cut -d',' -f2
+  452  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | sort -t',' -k16 -n -r | head -n1 | cut -d',' -f2
+  453  ls
+  454  cd cs131/worksheet3
+  455  ls
+  456  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | sort -t',' -k16 -n -r | head -n1 | cut -d',' -f2 > ws3.txt
+  457  cat ws.txt
+  458  cat ws3.txt
+  459  script ws3.txt
+  460  cat ws3.txt
+  461  cat -v 'Global YouTube Statistics.csv' | grep -E ‘^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,India’ | sort -t',' -k16 -n -r | head -n1 | cut -d',' -f2
+  462  cat -v 'Global YouTube Statistics.csv' | grep -E ‘^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,India’ | sort -t',' -k16 -n -r | head -n1
+  463  cat -v 'Global YouTube Statistics.csv' | grep -E ‘^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,India’ | sort -t',' -k16 -n -r
+  464  cat -v 'Global YouTube Statistics.csv' | grep -E ‘^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,India'
+  465  cat -v 'Global YouTube Statistics.csv' | grep -E ‘^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,India’ | sort -t',' -k16 -n -r | head -n1 | cut -d',' -f2
+  466  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,India' | sort -t',' -k16 -n -r | head -n1 | cut -d',' -f2
+  467  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | sort -t',' -k16 -n -r | head -n1 | cut -d',' -f2 > ws3.txt > ws3.txt
+  468  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United Kingdom' | sort -t',' -k16 -n -r | head -n1 | cut -d',' -f2 >> ws3.txt
+  469  cat ws3.txt
+  470  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,India' | sort -t',' -k16 -n -r | head -n1 | cut -d',' -f2 >> ws3.txt
+  471  cat ws3.txt
+  472  vi ws3.txt
+  473  cat ws3.txt
+  474  ls
+  475  git status
+  476  git add .
+  477  git status
+  478  git commit -m "started task 1 of worksheet 3: sort, >, uniq, cut"
+  479  git status
+  480  git push
+  481  cd cs131/worksheet3
+  482  ls
+  483  man grep
+  484  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports' | wc -l
+  485  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports' | sort -t',' -k3 -n -r |head -n1
+  486  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports' | sort -t',' -k3 -n -r
+  487  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports' | sort -t',' -k3 -n -r | cut -d',' -f2
+  488  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports' | sort -t',' -k3 -n -r | head -n1 | cut -d',' -f2
+  489  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n -r | head -n1 | cut -d',' -f2
+  490  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Entertainment' | sort -t',' -k3 -n -r | head -n1 | cut -d',' -f2
+  491  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports' | sort -t',' -k3 -n -r | head -n1 | cut -d',' -f2 >> ws3.txt
+  492  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n -r | head -n1 | cut -d',' -f2 >> ws3.txt
+  493  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Entertainment' | sort -t',' -k3 -n -r | head -n1 | cut -d',' -f2 >> ws3.txt
+  494  vi ws3.txt
+  495  cat ws3.txt
+  496  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n -r | head -n1
+  497  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n -r
+  498  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education'
+  499  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Entertainment' | sort -t',' -k3 -n -r | head -n1
+  500  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Entertainment' | sort -t',' -k3 -n -r | head -n5
+  501  cat -v 'Global YouTube Statistics.csv' | head -n5
+  502  clear
+  503  cat -v 'Global YouTube Statistics.csv' | he
+  504  cat -v 'Global YouTube Statistics.csv' | head -n5
+  505  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education'
+  506  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | head -n5
+  507  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n -r | head -n5
+  508  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n -r > temp.txt
+  509  ls
+  510  vi temp.txt
+  511  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Entertainment' | sort -t',' -k3 -n -r | head -n5
+  512  vi temp.txt
+  513  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n
+  514  clear
+  515  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n
+  516  clear
+  517  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t',' -k3 -n | head -n5
+  518  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' > temp.txt
+  519  vi temp.txt
+  520  wc -l temp.txt
+  521  head -n5 temp.txt > temp.txt
+  522  vi temp.txt
+  523  head -n5 temp.txt
+  524  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' > temp.txt
+  525  head -n5 temp.txt
+  526  head -n5 temp.txt > temp.txt
+  527  cat temp.txt
+  528  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | head -n10 > temp.txt
+  529  cat temp.txt
+  530  sort -t',' -k3 -n temp.txt
+  531  clear
+  532  sort -t',' -k3 -n temp.txt
+  533  man sort
+  534  sort -t',' -nk 3 temp.txt
+  535  sort -t',' -k2,2n temp.txt
+  536  sort -t',' -k3,3n temp.txt
+  537  sort -t',' -k3,3n -r temp.txt
+  538  sort -t',' -k3,3n temp.txt
+  539  clear
+  540  sort -t',' -k3,3n temp.txt | head -n1
+  541  sort -t',' -k3,3n -r temp.txt | head -n1
+  542  sort -t',' -k'3' -n -r temp.txt
+  543  sort -t',' -k'3' -n temp.txt
+  544  sort -t',' -k3,3 -n -r temp.txt
+  545  vi ws3.txt
+  546  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports' | sort -t ',' -k 3,3 -n -r | head -n 1 | cut -d ',' -f 2
+  547  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t ',' -k 3,3 -n -r | head -n 1 | cut -d ',' -f 2
+  548  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Entertainment' | sort -t ',' -k 3,3 -n -r | head -n 1 | cut -d ',' -f 2
+  549  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Sports' | sort -t ',' -k 3,3 -n -r | head -n 1 | cut -d ',' -f 2 >> ws3.txt
+  550  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Education' | sort -t ',' -k 3,3 -n -r | head -n 1 | cut -d ',' -f 2 >> ws3.txt
+  551  cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,Entertainment' | sort -t ',' -k 3,3 -n -r | head -n 1 | cut -d ',' -f 2 >> ws3.txt
+  552  vi ws3.txt
+  553  cat ws.txt
+  554  cat ws3.txt
+  555  vi ws3.txt
+  556  history > cmds.log
