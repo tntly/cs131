@@ -1,0 +1,5 @@
+assignment 1:
+1) mkdir assignment1
+2) echo $SHELL
+3) echo $HOME
+4) id

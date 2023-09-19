@@ -1,0 +1,4 @@
+assignment 1:
+2) /bin/bash
+3) /mnt/scratch/FA23_CS131_Ashish/tienf23
+4) uid=1125(tienf23) gid=1125(tienf23) groups=1125(tienf23),77(S77)
