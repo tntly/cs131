@@ -2,7 +2,7 @@ assignment 1:
 
 1)
 mkdir assignment1
-cd assignment 1
+cd assignment1
 
 2) echo $SHELL
 
