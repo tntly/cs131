@@ -1,4 +1,42 @@
 assignment 1:
+
 2) /bin/bash
-3) /mnt/scratch/FA23_CS131_Ashish/tienf23
-4) uid=1125(tienf23) gid=1125(tienf23) groups=1125(tienf23),77(S77)
+
+2) /mnt/scratch/FA23_CS131_Ashish/tienf23
+
+3) uid=1125(tienf23) gid=1125(tienf23) groups=1125(tienf23),77(S77)
+
+4) After removing the "write" permission for myself, I can still cd from assignment1 into myDir as well as ls and ls -l (which outputs "total 0"). However, I can't create new files under myDir. When I tried to do it, I received the error: "touch: cannot touch 'myFile.txt': Permission denied".
+
+6)
+              total        used        free      shared  buff/cache   available
+Mem:          71367       12187        1488        1256       57692       55762
+Swap:          4119        1056        3063
+
+The total amount of RAM/memory in the IBM VM is 71367 MiB.
+
+9)
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+The OS version is 8.6, and the file /etc/os-release contains this information.
+
+10)
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+
+All users have read, write, and execute permissions for the file /etc/os-release.

@@ -1,5 +1,36 @@
 assignment 1:
+
 1) mkdir assignment1
+
 2) echo $SHELL
-3) echo $HOME
-4) id
+
+2) echo $HOME
+
+3) id
+
+4)
+mkdir myDir
+chmod u-w myDir
+cd myDir
+ls
+ls -l
+touch myFile.txt
+cd ..
+
+5)
+mkdir myDir2 myDir3
+
+6)
+cd myDir2
+touch myFile.txt
+mv myFile.txt ../myDir3
+cd ..
+
+6)
+free -m
+
+9)
+cat /etc/os-release
+
+10)
+ls -l /etc/os-release
