@@ -36,7 +36,6 @@ REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
 
 The OS version is 8.6, and the file /etc/os-release contains this information.
 
-10)
-lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+10) lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
 
 All users have read, write, and execute permissions for the file /etc/os-release.
