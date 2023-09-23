@@ -17,8 +17,7 @@ ls -l
 touch myFile.txt
 cd ..
 
-5)
-mkdir myDir2 myDir3
+5) mkdir myDir2 myDir3
 
 6)
 cd myDir2
@@ -26,11 +25,8 @@ touch myFile.txt
 mv myFile.txt ../myDir3
 cd ..
 
-6)
-free -m
+6) free -m
 
-9)
-cat /etc/os-release
+9) cat /etc/os-release
 
-10)
-ls -l /etc/os-release
+10) ls -l /etc/os-release
