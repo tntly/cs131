@@ -1,6 +1,8 @@
 assignment 1:
 
-1) mkdir assignment1
+1)
+mkdir assignment1
+cd assignment 1
 
 2) echo $SHELL
 
