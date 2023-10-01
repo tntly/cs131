@@ -1,0 +1,397 @@
+Script started on 2023-10-01 04:37:33-04:00
+bash-4.4$ vi ./b[K[K[K~/.bashrc [K
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;29r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[29;1H"~/.bashrc" 3L, 62C[1;1H# worksheet 4, task 1:
+alias l='ls -ltr'
+alias w='ls -l | wc'
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ source ~.[K/.bashrc
+bash-4.4$ l
+total 4
+drwxrwxr-x 7 tienf23 tienf23 4096 Oct  1 04:35 cs131
+-rw-rw-r-- 1 tienf23 tienf23    0 Oct  1 04:37 ws4.txt
+bash-4.4$ w
+      3      20     116
+bash-4.4$ cd cs131
+bash-4.4$ ls[Ks
+assignment1  worksheet1  worksheet2  worksheet3
+bash-4.4$ mkdir worksheet4
+bash-4.4$ cd worksheet
+bash: cd: worksheet: No such file or directory
+bash-4.4$ cd worksheet4
+bash-4.4$ ls
+bash-4.4$ mkdir Sin[K[Kubscribers
+bash-4.4$ ls
+Subscribers
+bash-4.4$ cd Subscribers/
+bash-4.4$ [12@(reverse-i-search)`':[Cc': cd Subscribers/a': cat United_States.txt | paste -d'+'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@t[C[C[C[C[C[C[C-v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]**,[^,]*,India' | cut -d',' -f3 > India.txt[A[C[C[C[CUnited_States.txt | head[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]**,[^,]*,United States' | cut -d',' -f3 > United_States.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash-4.4$ cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United S[15P[A[C[C[C[C[C[C[C[C[C
+
+cat: 'Global YouTube Statistics.csv': No such file or directory
+bash-4.4$ [12@(reverse-i-search)`':[Cw': cd worksheet4g': wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%220Statistics.csv[A[C[C[C[C[C[C[C[Ce': wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv[A[C[C[C[C[C[C[C[Cbash-4.4$ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv[K[A[C[C[C[C[C[C[C[C
+
+--2023-10-01 04:42:02--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: ‘Global YouTube Statistics.csv’
+
+Global YouTube Statistics.c   0%[                                          ]       0  --.-KB/s               Global YouTube Statistics.c 100%[=========================================>] 195.58K  --.-KB/s    in 0.009s  
+
+2023-10-01 04:42:02 (22.3 MB/s) - ‘Global YouTube Statistics.csv’ saved [200279/200279]
+
+bash-4.4$ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.cssv[A[C[C[C[C[C[C[C[Ccat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | cut -d',' -f3 > United_States.txt
+bash-4.4$ cat United_States.txt 
+170000000
+166000000
+162000000
+112000000
+98900000
+96000000
+75000000
+68200000
+59500000
+59500000
+56900000
+56400000
+52900000
+52700000
+52200000
+47900000
+46600000
+44200000
+42400000
+42400000
+40900000
+39200000
+38600000
+38200000
+38200000
+38000000
+37900000
+37600000
+36700000
+36600000
+36300000
+35200000
+35200000
+34900000
+33700000
+33600000
+32800000
+32700000
+31700000
+31700000
+31600000
+31600000
+31200000
+30700000
+30700000
+30400000
+30400000
+30300000
+30200000
+30100000
+29600000
+29200000
+28400000
+28200000
+27500000
+27500000
+27400000
+27300000
+27000000
+26700000
+26700000
+26500000
+26400000
+26200000
+26100000
+26000000
+25700000
+25700000
+25600000
+25500000
+25400000
+25200000
+25100000
+24800000
+24700000
+24600000
+24600000
+24400000
+24100000
+24100000
+24100000
+24000000
+23900000
+23900000
+23900000
+23800000
+23800000
+23700000
+23700000
+23600000
+23600000
+23300000
+23200000
+23200000
+23100000
+23100000
+22900000
+22700000
+22600000
+22600000
+22600000
+22500000
+22500000
+22300000
+22200000
+22000000
+22000000
+21900000
+21900000
+21900000
+21800000
+21800000
+21600000
+21500000
+21300000
+21300000
+21300000
+21100000
+21000000
+21000000
+21000000
+20900000
+20900000
+20900000
+20700000
+20700000
+20700000
+20500000
+20400000
+20200000
+20100000
+20100000
+20100000
+20100000
+20100000
+20100000
+20100000
+20000000
+20000000
+19800000
+19800000
+19700000
+19700000
+19600000
+19600000
+19600000
+19600000
+19200000
+19100000
+19100000
+19000000
+18800000
+18800000
+18600000
+18400000
+18400000
+18300000
+18300000
+18100000
+18100000
+18000000
+18000000
+18000000
+17900000
+17900000
+17900000
+17900000
+17900000
+17900000
+17800000
+17700000
+17500000
+17400000
+17300000
+17200000
+17100000
+17000000
+16900000
+16900000
+16900000
+16900000
+16700000
+16700000
+16700000
+16600000
+16500000
+16500000
+16500000
+16400000
+16400000
+16300000
+16300000
+16300000
+16300000
+16300000
+16200000
+16200000
+16200000
+16100000
+16100000
+16100000
+15900000
+15900000
+15900000
+15800000
+15700000
+15600000
+15500000
+15500000
+15400000
+15400000
+15400000
+15300000
+15200000
+15100000
+15100000
+15100000
+15000000
+15000000
+15000000
+15000000
+15000000
+14900000
+14900000
+14900000
+14800000
+14800000
+14800000
+14800000
+14800000
+14800000
+14700000
+14700000
+14700000
+14700000
+14700000
+14700000
+14600000
+14600000
+14600000
+14600000
+14500000
+14500000
+14500000
+14500000
+14500000
+14500000
+14400000
+14400000
+14400000
+14400000
+14400000
+14400000
+14300000
+14300000
+14200000
+14100000
+14100000
+14000000
+13900000
+13900000
+13900000
+13900000
+13900000
+13800000
+13600000
+13600000
+13600000
+13500000
+13500000
+13400000
+13400000
+13400000
+13400000
+13400000
+13300000
+13300000
+13300000
+13300000
+13300000
+13300000
+13300000
+13200000
+13200000
+13200000
+13100000
+13100000
+13100000
+13100000
+13000000
+13000000
+12900000
+12900000
+12900000
+12800000
+12800000
+12700000
+12700000
+12700000
+12700000
+12700000
+12600000
+12600000
+12500000
+12500000
+12500000
+12500000
+12400000
+12400000
+12400000
+12400000
+12400000
+12400000
+bash-4.4$ [12@(reverse-i-search)`':[C[23@c': cat United_States.txt[1@a[C[C[C[1@t[C[C[C[C[C[C[C-v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]**,[^,]*,United States' | cut -d',' -f3 > United_States.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[50PUnited_States.txt | paste -d'+'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]**,[^,]*,India' | cut -d',' -f3 > India.txt[Abash-4.4$ cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,India' |[15P[A[C[C[C[C[C[C[C[C[C
+
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   India.txt   United_States.txt
+bash-4.4$ cat United_States.txt | paste -s -d[K[K[K[K[K-d'+"[K' [1@s[1@u[1@m[1@_[1@u[1@s[1@ [1@=[1@ [1@$[1@([C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C - s [C | [C b c ) [1P[1P[1P[1@=[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ $(cat United_States.txt | wc -l)
+bash: 7329500000: command not found
+bash-4.4$ $(cat United_States.txt | paste -d'+' -s | bc) / $(cat United_States.txt | wc -l)[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+bash: 7329500000: command not found
+bash-4.4$ $(cat United_States.txt | paste -d'+' -s | bc)[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+7329500000
+bash-4.4$ cat United_States.txt | paste -d'+' -s | bc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwc -l
+313
+bash-4.4$ echo "cat [K[K[K[K$(cat United_States.txt | paste -d'+' -s | bc) / $(cat United_States.txt | wc -l))[K" | bc
+23416932
+bash-4.4$ echo "$(cat United_States.txt | paste -d'+' -s | bc) / $(cat United_States.txt | wc -l)" | bc -l
+23416932.90734824281150159744
+bash-4.4$ echo "$(cat United_States.txt | paste -d'+' -s | bc) / $(cat United_States.txt | wc -l)" | bc -l[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@d[1@i[1@a[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@d[1@i[1@a
+25658333.33333333333333333333
+bash-4.4$ echo "$(cat India.txt | paste -d'+' -s | bc) / $(cat India.txt | wc -l)" | bc -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16@United_States.txt | paste -d'+' -s | bc) / $(cat United_States[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > w s5[K4_means.txt
+bash-4.4$ echo "$(cat United_States.txt | paste -d'+' -s | bc) / $(cat United_States.txt | wc -l)" | bc -l > wss4_means.txt[A[C[C[C[C[C[C[C[C[C[C[20PIndia.txt | paste -d'+' -s | bc) / $(cat India.txt | wc -l)" | bc -l
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUnited_States.txt | paste -d'+' -s | bc) / $(cat United_States.txt | wc -l)" | bc -l > wss4_means.txt[A[K
+[K[A[C[C[C[C[C[C[C[C[C[Cecho "$(cat United_States.txt | paste -d'+' -s | bc) / $(cat United_States.txt | wc -l)" | bc -l > wss4_means.txt[A[C[C[C[C[C[C[C[C[C[C[20PIndia.txt | paste -d'+' -s | bc) / $(cat India.txt | wc -l)" | bc -l
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >> wes[K[Ks4_mean.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   India.txt   United_States.txt   ws4_means.txt   ws4_mean.txt
+bash-4.4$ vi we[3Pls[K[Krm wes[K[Ks4_mean.txt
+bash-4.4$ rm ws4_mean.txt[C[C[C[C[C[C[C[C[C[Cls[Kecho "$(cat India.txt | paste -d'+' -s | bc) / $(cat India.txt | wc -l)" | bc -l >> ws4_mean.txts.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   India.txt   United_States.txt   ws4_means.txt
+bash-4.4$ vi ws4_means.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;29r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[29;1H"ws4_means.txt" 2L, 60C[1;1H23416932.90734824281150159744
+25658333.33333333333333333333
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ cat wes[K[Ks4_means.txt 
+worksheet 4, task 2: 
+average number of subscribers of US YouTubers: 23416932.90734824281150159744
+average number of subscribers of Indian YouTubers: 25658333.33333333333333333333
+bash-4.4$ exit
+exit
+
+Script done on 2023-10-01 04:56:48-04:00
