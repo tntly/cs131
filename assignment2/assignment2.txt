@@ -1,0 +1,52 @@
+assignment 2:
+
+1)
+a. The command looks for files inside the /etc directory as well as its subdirectories. Then, the output of the command which is a list of files is redirected to one.txt, and if there are any errors, they are redirected to two.txt.
+
+b. The content of one.txt is a list of files that are inside the /etc directory and its subdirectories. The content of two.txt is a list of errors that the command generated.
+
+2) As per the dataset, top 3 [Year, Month] with the most number of YouTube channels created were:
+a. 2006, Mar with 15 channels
+b. 2014, Jul with 13 channels
+c. 2014, Aug with 12 channels
+
+The command used to find it was: cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -n3
+
+First, I used the cut command and specified the comma as the delimiter using the -d option. The -f option specified the columns I wanted to extract from the file, which were the 20th and 21st columns. The columns are the created_year and created_month. Next, I used the sort command so that the duplicate lines are adjacent to each other. With the duplicate lines next to each other, I used the uniq command with the -c option to count the repeated lines. Finally, I sorted the results with the sort command with the -n option (a numerical sorting) and the -r option (the reverse order), which gave me the number of times each [Year, Month| appeared in the dataset in the descending order. Finally, I used head -n3 to get the top 3 [Year, Month].
+
+3)
+    PID TTY          TIME CMD
+2378299 ?        00:00:02 systemd
+2378300 ?        00:00:00 (sd-pam)
+2378306 ?        00:00:01 sshd
+2378310 pts/85   00:00:00 bash
+2660161 pts/85   00:00:00 ps
+
+4)
+    PID TTY          TIME CMD
+2378299 ?        00:00:02 systemd
+2378300 ?        00:00:00 (sd-pam)
+2378306 ?        00:00:01 sshd
+2378310 pts/85   00:00:00 bash
+2665218 ?        00:00:00 sshd
+2665234 pts/2    00:00:00 bash
+2675376 pts/85   00:00:00 vim
+2679989 pts/2    00:00:00 ps
+b. I noticed that there are 2 different bash processes, which correspond to the 2 terminals. Additionally, since I opened vi in the first terminal, there was a vim process. The process ID of vim was 2675376.
+
+    PID TTY          TIME CMD
+2378299 ?        00:00:02 systemd
+2378300 ?        00:00:00 (sd-pam)
+2378306 ?        00:00:01 sshd
+2378310 pts/85   00:00:00 bash
+2665218 ?        00:00:00 sshd
+2665234 pts/2    00:00:00 bash
+2682003 pts/2    00:00:00 ps
+d. The vim process disappeared since I closed down vi in the first terminal.
+
+5)
+    PID TTY          TIME CMD
+      1 ?        00:28:48 systemd
+The init proces in Linux is the first process started by the kernel during the booting of the OS. Its process ID is 1.
+
+6) The ps aux command lists all running processes on the system in a detailed format. The -a option shows processes for all users, while the -u displays the user of a process. Finally, the -x option include processes that are not attached to a terminal.

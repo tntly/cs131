@@ -1,0 +1,25 @@
+assignment 2:
+
+1)
+cd cs131
+mkdir assignment2
+cd assignment2
+find /etc -type f > one.txt 2> two.txt
+cat one.txt
+cat two.txt
+
+2)
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -n3
+
+3)
+ps -u tienf23
+
+4)
+first terminal: vi file.txt
+second terminal: ps -u tienf23
+first terminal: q!
+second terminal: ps -u tienf23
+
+5)
+ps -p 1
