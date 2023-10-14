@@ -50,3 +50,48 @@ d. The vim process disappeared since I closed down vi in the first terminal.
 The init proces in Linux is the first process started by the kernel during the booting of the OS. Its process ID is 1.
 
 6) The ps aux command lists all running processes on the system in a detailed format. The -a option shows processes for all users, while the -u displays the user of a process. Finally, the -x option includes processes that are not attached to a terminal.
+root           1  0.3  0.0 178624 18368 ?        Ss   Oct05  43:41 /usr/lib/systemd/systemd --switched-root --system --deserialize 17
+root        2978  0.0  0.3 311360 251584 ?       Ss   Oct05   6:15 /usr/lib/systemd/systemd-journald
+root        3027  0.0  0.0  55936 14400 ?        Ss   Oct05   0:01 /usr/lib/systemd/systemd-udevd
+dbus        3634  0.3  0.0  36864 12416 ?        Ss   Oct05  45:41 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        3679  0.0  0.0  35456 13824 ?        Ss   Oct05   4:08 /usr/lib/systemd/systemd-logind
+malexin    13840  0.0  0.0  28736 15168 ?        Ss   Oct05   5:14 /usr/lib/systemd/systemd --user
+trinhvi+   23207  0.0  0.0  28736 15232 ?        Ss   Oct05   4:08 /usr/lib/systemd/systemd --user
+ramirez+   28563  0.0  0.0  28736 15168 ?        Ss   Oct05   5:21 /usr/lib/systemd/systemd --user
+billand+   29653  0.0  0.0  28736 15168 ?        Ss   Oct05   4:08 /usr/lib/systemd/systemd --user
+zazakha+   34438  0.0  0.0  28736 15168 ?        Ss   Oct05   4:08 /usr/lib/systemd/systemd --user
+chenkyle   42536  0.0  0.0  28736 15168 ?        Ss   Oct05   4:11 /usr/lib/systemd/systemd --user
+jianjam+   45515  0.0  0.0  28736 15168 ?        Ss   Oct05   5:34 /usr/lib/systemd/systemd --user
+niansean   58391  0.0  0.0  28736 15168 ?        Ss   Oct05   4:14 /usr/lib/systemd/systemd --user
+qianbri+  401663  0.0  0.0  28736 15168 ?        Ss   Oct05   5:31 /usr/lib/systemd/systemd --user
+tawdega+  597176  0.0  0.0  28736 15168 ?        Ss   Oct05   4:13 /usr/lib/systemd/systemd --user
+taigario  624836  0.0  0.0  28736 15168 ?        Ss   Oct05   4:13 /usr/lib/systemd/systemd --user
+reyesaz+  629993  0.0  0.0  28736 15168 ?        Ss   Oct05   4:13 /usr/lib/systemd/systemd --user
+bhogalg+  635463  0.0  0.0  28736 15168 ?        Ss   Oct06   4:14 /usr/lib/systemd/systemd --user
+huangan+  635881  0.0  0.0  28736 15168 ?        Ss   Oct06   4:18 /usr/lib/systemd/systemd --user
+sharmaa+  645070  0.0  0.0  28736 15168 ?        Ss   Oct06   4:16 /usr/lib/systemd/systemd --user
+nguyent+  661051  0.0  0.0  28736 15168 ?        Ss   Oct06   4:33 /usr/lib/systemd/systemd --user
+tangnic+  778500  0.0  0.0  28736 15232 ?        Ss   Oct11   1:29 /usr/lib/systemd/systemd --user
+ahmedam+  881307  0.0  0.0  28736 15168 ?        Ss   Oct09   2:21 /usr/lib/systemd/systemd --user
+ashishf+  939916  0.0  0.0  28736 15168 ?        Ss   Oct09   2:15 /usr/lib/systemd/systemd --user
+samuelf+  946177  0.0  0.0  28736 15168 ?        Ss   Oct09   2:41 /usr/lib/systemd/systemd --user
+jewonf23  946380  0.0  0.0  28736 15168 ?        Ss   Oct09   2:43 /usr/lib/systemd/systemd --user
+kidanee+ 1162453  0.0  0.0  28736 15168 ?        Ss   Oct10   2:19 /usr/lib/systemd/systemd --user
+eschjer+ 3161122  0.0  0.0  28736 15168 ?        Ss   13:07   0:11 /usr/lib/systemd/systemd --user
+digheam+ 3179299  0.0  0.0  28800 15232 ?        Ss   13:34   0:12 /usr/lib/systemd/systemd --user
+bhavdee+ 3534512  0.0  0.0  28736 15168 ?        Ss   17:09   0:05 /usr/lib/systemd/systemd --user
+manmoha+ 3540355  0.0  0.0  28736 15168 ?        Ss   17:17   0:06 /usr/lib/systemd/systemd --user
+rahulf23 3557806  0.0  0.0  28736 15168 ?        Ss   17:42   0:05 /usr/lib/systemd/systemd --user
+ledavid  3580729  0.0  0.0  28736 15232 ?        Ss   Oct10   2:01 /usr/lib/systemd/systemd --user
+shervan+ 3681568  0.0  0.0  28672 14976 ?        Ss   18:37   0:03 /usr/lib/systemd/systemd --user
+brandon+ 3698259  0.0  0.0  28672 14848 ?        Ss   19:01   0:02 /usr/lib/systemd/systemd --user
+thif23   3700583  0.0  0.0  28672 15104 ?        Ss   19:04   0:02 /usr/lib/systemd/systemd --user
+zipengf+ 3723421  0.0  0.0  28672 14912 ?        Ss   19:36   0:01 /usr/lib/systemd/systemd --user
+rikkif23 3734177  0.0  0.0  28672 14912 ?        Ss   19:52   0:01 /usr/lib/systemd/systemd --user
+tienf23  3757348  0.2  0.0  28672 14912 ?        Ss   20:24   0:00 /usr/lib/systemd/systemd --user
+haroldf+ 3758288  2.0  0.0  28672 14784 ?        Ss   20:26   0:00 /usr/lib/systemd/systemd --user
+root     3758299  6.7  0.0  28544 14272 ?        Ss   20:26   0:00 /usr/lib/systemd/systemd --user
+tommy23+ 3758300  3.7  0.0  28672 14848 ?        Ss   20:26   0:00 /usr/lib/systemd/systemd --user
+tienf23  3758378  0.0  0.0   8320  1792 pts/111  S+   20:26   0:00 grep --color=auto systemd
+phanste+ 4055511  0.0  0.0  28736 15232 ?        Ss   Oct11   1:56 /usr/lib/systemd/systemd --user
+yacoubr+ 4137443  0.0  0.0  28736 15168 ?        Ss   Oct11   1:38 /usr/lib/systemd/systemd --user
