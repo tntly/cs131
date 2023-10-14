@@ -32,6 +32,7 @@ First, I used the cut command and specified the comma as the delimiter using the
 2665234 pts/2    00:00:00 bash
 2675376 pts/85   00:00:00 vim
 2679989 pts/2    00:00:00 ps
+
 b. I noticed that there are 2 different bash processes, which correspond to the 2 terminals. Additionally, since I opened vi in the first terminal, there was a vim process. The process ID of vim was 2675376.
 
     PID TTY          TIME CMD
@@ -42,14 +43,10 @@ b. I noticed that there are 2 different bash processes, which correspond to the 
 2665218 ?        00:00:00 sshd
 2665234 pts/2    00:00:00 bash
 2682003 pts/2    00:00:00 ps
+
 d. The vim process disappeared since I closed down vi in the first terminal.
 
 5)
-    PID TTY          TIME CMD
-      1 ?        00:28:48 systemd
-The init proces in Linux is the first process started by the kernel during the booting of the OS. Its process ID is 1.
-
-6) The ps aux command lists all running processes on the system in a detailed format. The -a option shows processes for all users, while the -u displays the user of a process. Finally, the -x option includes processes that are not attached to a terminal.
 root           1  0.3  0.0 178624 18368 ?        Ss   Oct05  43:41 /usr/lib/systemd/systemd --switched-root --system --deserialize 17
 root        2978  0.0  0.3 311360 251584 ?       Ss   Oct05   6:15 /usr/lib/systemd/systemd-journald
 root        3027  0.0  0.0  55936 14400 ?        Ss   Oct05   0:01 /usr/lib/systemd/systemd-udevd
@@ -95,3 +92,7 @@ tommy23+ 3758300  3.7  0.0  28672 14848 ?        Ss   20:26   0:00 /usr/lib/syst
 tienf23  3758378  0.0  0.0   8320  1792 pts/111  S+   20:26   0:00 grep --color=auto systemd
 phanste+ 4055511  0.0  0.0  28736 15232 ?        Ss   Oct11   1:56 /usr/lib/systemd/systemd --user
 yacoubr+ 4137443  0.0  0.0  28736 15168 ?        Ss   Oct11   1:38 /usr/lib/systemd/systemd --user
+
+The init proces in Linux is the first process started by the kernel during the booting of the OS. Its process ID is 1.
+
+6) The ps aux command lists all running processes on the system in a detailed format. The -a option shows processes for all users, while the -u displays the user of a process. Finally, the -x option includes processes that are not attached to a terminal.
