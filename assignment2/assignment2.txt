@@ -12,7 +12,7 @@ c. 2014, Aug with 12 channels
 
 The command used to find it was: cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -n3
 
-First, I used the cut command and specified the comma as the delimiter using the -d option. The -f option specified the columns I wanted to extract from the file, which were the 20th and 21st columns. The columns are the created_year and created_month. Next, I used the sort command so that the duplicate lines are adjacent to each other. With the duplicate lines next to each other, I used the uniq command with the -c option to count the repeated lines. Finally, I sorted the results with the sort command with the -n option (a numerical sorting) and the -r option (the reverse order), which gave me the number of times each [Year, Month| appeared in the dataset in the descending order. Finally, I used head -n3 to get the top 3 [Year, Month].
+First, I used the cut command and specified the comma as the delimiter using the -d option. The -f option specified the columns I wanted to extract from the file, which were the 20th and 21st columns. The columns are the created_year and created_month. Next, I used the sort command so that the duplicate lines are adjacent to each other. With the duplicate lines next to each other, I used the uniq command with the -c option to count the repeated lines. Finally, I sorted the results with the sort command with the -n option (a numerical sorting) and the -r option (the reverse order), which gave me the number of times each [Year, Month| appeared in the dataset in descending order. Finally, I used head -n3 to get the top 3 [Year, Month].
 
 3)
     PID TTY          TIME CMD
@@ -49,4 +49,4 @@ d. The vim process disappeared since I closed down vi in the first terminal.
       1 ?        00:28:48 systemd
 The init proces in Linux is the first process started by the kernel during the booting of the OS. Its process ID is 1.
 
-6) The ps aux command lists all running processes on the system in a detailed format. The -a option shows processes for all users, while the -u displays the user of a process. Finally, the -x option include processes that are not attached to a terminal.
+6) The ps aux command lists all running processes on the system in a detailed format. The -a option shows processes for all users, while the -u displays the user of a process. Finally, the -x option includes processes that are not attached to a terminal.

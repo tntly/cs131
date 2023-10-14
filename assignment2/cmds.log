@@ -22,4 +22,4 @@ first terminal: q!
 second terminal: ps -u tienf23
 
 5)
-ps -p 1
+ps aux | grep "systemd"
