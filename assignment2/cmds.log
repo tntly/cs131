@@ -12,8 +12,7 @@ cat two.txt
 wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
 cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -n3
 
-3)
-ps -u tienf23
+3) ps -u tienf23
 
 4)
 first terminal: vi file.txt
@@ -21,5 +20,4 @@ second terminal: ps -u tienf23
 first terminal: q!
 second terminal: ps -u tienf23
 
-5)
-ps aux | grep "systemd"
+5) ps aux | grep "systemd"

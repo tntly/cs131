@@ -1,7 +1,7 @@
 assignment 2:
 
 1)
-a. The command looks for files inside the /etc directory as well as its subdirectories. Then, the output of the command which is a list of files is redirected to one.txt, and if there are any errors, they are redirected to two.txt.
+a. The command looks for files inside the /etc directory as well as its subdirectories. Then, the output of the command, which is a list of files, is redirected to one.txt, and if there are any errors, they are redirected to two.txt.
 
 b. The content of one.txt is a list of files that are inside the /etc directory and its subdirectories. The content of two.txt is a list of errors that the command generated.
 
@@ -9,10 +9,9 @@ b. The content of one.txt is a list of files that are inside the /etc directory 
 a. 2006, Mar with 15 channels
 b. 2014, Jul with 13 channels
 c. 2014, Aug with 12 channels
-
 The command used to find it was: cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -n3
 
-First, I used the cut command and specified the comma as the delimiter using the -d option. The -f option specified the columns I wanted to extract from the file, which were the 20th and 21st columns. The columns are the created_year and created_month. Next, I used the sort command so that the duplicate lines are adjacent to each other. With the duplicate lines next to each other, I used the uniq command with the -c option to count the repeated lines. Finally, I sorted the results with the sort command with the -n option (a numerical sorting) and the -r option (the reverse order), which gave me the number of times each [Year, Month| appeared in the dataset in descending order. Finally, I used head -n3 to get the top 3 [Year, Month].
+First, I used the cut command and specified the comma as the delimiter using the -d option. The -f option specified the columns I wanted to extract from the file, which were the 20th and 21st columns. The columns are the created_year and created_month. Next, I used the sort command so that the duplicate lines are adjacent to each other. With the duplicate lines next to each other, I used the uniq command with the -c option to count the repeated lines. Finally, I sorted the results using the sort command with the -n option (a numerical sorting) and the -r option (in reverse order), which gave me the number of times each [Year, Month] appeared in the dataset in descending order. Finally, I used head -n3 to get the top 3 [Year, Month].
 
 3)
     PID TTY          TIME CMD
