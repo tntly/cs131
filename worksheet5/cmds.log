@@ -1,3 +1,5 @@
+worksheet 5:
+
 cd cs131
 
 mkdir worksheet5
@@ -8,13 +10,13 @@ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20Yo
 
 mkdir "United States"
 
-cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | awk -F',' '{ if ($5 == "Music") { print $0 } }' > ./"United States"/Music.txt
+awk -F',' '{ if ($5 == "Music" && $7 == "United States") { print $0 } }' 'Global YouTube Statistics.csv' > "United States"/Music.txt
 
-cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | awk -F',' '{ if ($5 == "Entertainment") { print $0 } }' > ./"United States"/Entertainment.txt
+awk -F',' '{ if ($5 == "Entertainment" && $7 == "United States") { print $0 } }' 'Global YouTube Statistics.csv' > "United States"/Entertainment.txt
 
-cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | awk -F',' '{ if ($5 == "Gaming") { print $0 } }' > ./"United States"/Gaming.txt
+awk -F',' '{ if ($5 == "Gaming" && $7 == "United States") { print $0 } }' 'Global YouTube Statistics.csv' > "United States"/Gaming.txt
 
-cat -v 'Global YouTube Statistics.csv' | grep -E '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States' | awk -F',' '{ if ($5 == "Comedy") { print $0 } }' > ./"United States"/Comedy.txt
+awk -F',' '{ if ($5 == "Comedy" && $7 == "United States") { print $0 } }' 'Global YouTube Statistics.csv' > ./"United States"/Comedy.txt
 
 wc -l "United States"/Music.txt > ws5.txt
 
