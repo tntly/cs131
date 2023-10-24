@@ -1,6 +1,9 @@
 worksheet 5:
 
 the number of entries in "worksheet5/United States/Music.txt" is 73.
+
 the number of entries in "worksheet5/United States/Entertainment.txt" is 68.
+
 the number of entries in "worksheet5/United States/Gaming.txt" is 26.
+
 the number of entries in "worksheet5/United States/Comedy.txt" is 22.
