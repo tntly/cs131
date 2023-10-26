@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if test -f "United States/Music.txt"; then
 	> "United States/Music.txt"
 fi
