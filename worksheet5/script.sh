@@ -27,11 +27,3 @@ for line in $(cat 'Global YouTube Statistics.csv'); do
 		echo "$line" >> "United States/Comedy.txt"
 	fi
 done
-
-wc -l "United States/Music.txt" > ws5.txt
-
-wc -l "United States/Entertainment.txt" >> ws5.txt
-
-wc -l "United States/Gaming.txt" >> ws5.txt
-
-wc -l "United States/Comedy.txt" >> ws5.txt
