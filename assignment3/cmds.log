@@ -1,0 +1,20 @@
+assignment 3:
+
+task 1:
+
+cd cs131
+mkdir assignment3
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/last.fake
+wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/passwd.fake 
+wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/ps.fake 
+wc -l last.fake
+sed -n '/f23/p' last.fake > lastf23.fake
+wc -l lastf23.fake
+
+task 2:
+grep 'Sun' lastf23.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print $0} END {print "Kudos to these people for putting in the work"}'
+
+task 3:
+awk '{if (NF == 10) print $1, $7; else print $1, $6}' lastf23.fake | cut -d: -f1 | awk '{if ($2 >= 23 || $2 <= 4) print $1}' | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print $0} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+
+task 4:
