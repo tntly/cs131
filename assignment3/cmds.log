@@ -18,3 +18,9 @@ task 3:
 awk '{if (NF == 10) print $1, $7; else print $1, $6}' lastf23.fake | cut -d: -f1 | awk '{if ($2 >= 23 || $2 <= 4) print $1}' | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print $0} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
 
 task 4:
+awk '{if (NF == 10) print $1, $7; else print $1, $6}' lastf23.fake | cut -d: -f1 | awk '{if ($2 >= 5 && $2 <= 9) print $1}' | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print $0} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+
+task 5:
+awk '{if ($1 ~ /^t/) print $1}' lastf23.fake | sort | uniq
+
+task 6:
