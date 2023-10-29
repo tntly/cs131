@@ -2,10 +2,12 @@ assignment 3:
 
 task 1:
 
+1.
 command: wc -l last.fake
 output:
 2162 last.fake
 
+2.
 command: sed -n '/f23/p' last.fake > lastf23.fake
 output:
 divijf23 pts/44       172.29.97.6      Thu Oct 26 14:30   still logged in
@@ -248,6 +250,7 @@ tienf23  pts/96                        Sun Oct  1 04:37 - 04:56  (00:19)
 tienf23  pts/96                        Sun Oct  1 04:36 - 04:37  (00:00)
 tienf23  pts/96                        Sun Oct  1 04:36 - 04:36  (00:00)
 
+3.
 command: wc -l lastf23.fake
 output:
 239 lastf23.fake
