@@ -5,8 +5,7 @@ task 1:
 cd cs131
 mkdir assignment3
 wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/last.fake
-wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/passwd.fake 
-wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/ps.fake 
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/passwd.fake
 wc -l last.fake
 sed -n '/f23/p' last.fake > lastf23.fake
 wc -l lastf23.fake
