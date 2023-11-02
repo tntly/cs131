@@ -1,7 +1,6 @@
 assignment 3:
 
 task 1:
-
 cd cs131
 mkdir assignment3
 wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/last.fake
