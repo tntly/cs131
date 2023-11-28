@@ -21,21 +21,21 @@ Top 5 Korean Artists with the Most Songs:
 
 Task 2.2
 Top 5 Oldest Chinese Songs:
-Love Talk - English Version,Love Talk (English Version),70,2019-11-05
-嘉宾,嘉宾,71,2020-10-26
-"如果可以 - 電影""月老""主題曲","如果可以 (電影""月老""主題曲)",72,2021-11-05
-从前说,从前说,71,2021-12-29
+2019-11-05,70,Love Talk (English Version),Love Talk - English Version
+2020-10-26,71,嘉宾,嘉宾
+2021-11-05,72,"如果可以 (電影""月老""主題曲)","如果可以 - 電影""月老""主題曲"
+2021-12-29,71,从前说,从前说
 
 Top 5 Oldest Japanese Songs:
-チェリー,インディゴ地平線,70,1996
-First Love,First Love,73,1999-03-10
-"Tokyo Drift (Fast & Furious) - From ""The Fast And The Furious: Tokyo Drift"" Soundtrack",Tokyo Drift (Fast & Furious),76,2006-01-01
-unravel,Fantastic Magic,75,2014-08-27
-Gyal You a Party Animal,Gyal You a Party Animal,72,2015
+1996,70,インディゴ地平線,チェリー
+1999-03-10,73,First Love,First Love
+2006-01-01,76,Tokyo Drift (Fast & Furious),"Tokyo Drift (Fast & Furious) - From ""The Fast And The Furious: Tokyo Drift"" Soundtrack"
+2014-08-27,75,Fantastic Magic,unravel
+2015,72,Gyal You a Party Animal,Gyal You a Party Animal
 
 Top 5 Oldest Korean Songs:
-4:00A.M.,MIGNONNE (Mastered by Bernie Grundman),71,1978-09-21
-River Flows In You,First Love (The Original & the Very First Recording),74,2001-11-27
-Replay,The SHINee World - The First Album,71,2008-08-28
-Ichu Ichu,Vedi (Original Motion Picture Soundtrack),70,2011-09-05
-AEAO,A Giant Step,74,2014-07-16
+1978-09-21,71,MIGNONNE (Mastered by Bernie Grundman),4:00A.M.
+2001-11-27,74,First Love (The Original & the Very First Recording),River Flows In You
+2008-08-28,71,The SHINee World - The First Album,Replay
+2011-09-05,70,Vedi (Original Motion Picture Soundtrack),Ichu Ichu
+2014-06-03,70,RISE,"눈,코,입 (Eyes, Nose, Lips)"
