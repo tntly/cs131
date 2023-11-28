@@ -10,8 +10,8 @@ awk 'BEGIN {FPAT = "([^,]*)|(\"([^\"]|\"\")*\")"} {print $4}' korean | sort | un
 
 echo 'Task 2.2' >> task2.txt
 # task 2.2: list the top 5 oldest songs in each file
-sort -t, -k6,6 chinese | head -n 5 | awk -F, 'BEGIN {OFS = ","; print "Top 5 Oldest Chinese Songs:"} {print $1, $2, $5, $6} END {printf "\n"}' >> task2.txt
+awk 'BEGIN {FPAT = "([^,]*)|(\"([^\"]|\"\")*\")"; OFS = ","} {print $6, $5, $2, $1}' chinese | sort -t, -k1,1 | head -n 5 | awk -F, 'BEGIN {OFS = ","; print "Top 5 Oldest Chinese Songs:"} {print} END {printf "\n"}' >> task2.txt
 
-sort -t, -k6,6 japanese | head -n 5 | awk -F, 'BEGIN {OFS = ","; print "Top 5 Oldest Japanese Songs:"} {print $1, $2, $5, $6} END {printf "\n"}' >> task2.txt
+awk 'BEGIN {FPAT = "([^,]*)|(\"([^\"]|\"\")*\")"; OFS = ","} {print $6, $5, $2, $1}' japanese | sort -t, -k1,1 | head -n 5 | awk -F, 'BEGIN {OFS = ","; print "Top 5 Oldest Japanese Songs:"} {print} END {printf "\n"}' >> task2.txt
 
-sort -t, -k6,6 korean | head -n 5 | awk -F, 'BEGIN {OFS = ","; print "Top 5 Oldest Korean Songs:"} {print $1, $2, $5, $6}' >> task2.txt
+awk 'BEGIN {FPAT = "([^,]*)|(\"([^\"]|\"\")*\")"; OFS = ","} {print $6, $5, $2, $1}' korean | sort -t, -k1,1 | head -n 5 | awk -F, 'BEGIN {OFS = ","; print "Top 5 Oldest Korean Songs:"} {print}' >> task2.txt
