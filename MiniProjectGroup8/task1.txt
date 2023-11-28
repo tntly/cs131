@@ -1,0 +1,22 @@
+Task 1.1
+Average Duration of Chinese Popular Songs:
+4.54866 minutes
+
+Average Duration of Japanese Popular Songs:
+3.87133 minutes
+
+Average Duration of Korean Popular Songs:
+3.25778 minutes
+
+Task 1.2
+Number of Explicit Songs (Chinese): 0
+Total Number of Songs: 4
+Proportion: 0
+
+Number of Explicit Songs (Japanese): 1
+Total Number of Songs: 103
+Proportion: 0.00970874
+
+Number of Explicit Songs (Korean): 26
+Total Number of Songs: 306
+Proportion: 0.0849673
